@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Pais</title>
+ <style>
+            .container{ 
+                max-width: 1280px;
+                margin: auto;
+            }
+            .entrada-texto {
+                font-size: 1.2rem;
+                padding:12px;
+                margin-bottom: 4px;
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .entrada-botao{
+                font-size: 1.2rem;
+                background-color: #2196F3;
+                color: white;
+                padding:12px;
+                float:right;
+               
+            }
+        </style>
+</head>
+<body>
+            <form action="ManterPais.do" method="post">
+                <div class="container">
+                    <h3>Cadastro de Pais</h3>
+                    <label for="nome">Nome:</label>
+                    <input id="nome" class="entrada-texto" type="text" name="nome">
+                    <label for="populacao">Populacao:</label>
+                    <input id="populacao" class="entrada-texto" type="text" name="populacao">
+                    <label for="area">Area:</label>
+                    <input id="area" class="entrada-texto" type="text" name="area">
+                    <input class="entrada-botao" type="submit">
+                </div>
+            </form>
+
+
+</body>
+</html>
